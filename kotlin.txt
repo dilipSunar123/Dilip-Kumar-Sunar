@@ -1,0 +1,50 @@
+fun main() {
+    
+    val firstName = "Dilip" // read only
+	    
+    // var firstName = "Dilip" // read and write
+    
+    // val s1 = "My name is : "
+    // val s2 = "Dilip Sunar"
+    
+    // print(s1 + s2)
+    
+    // print(firstName[3])	// charAt()
+    
+    // print(firstName.isEmpty())	.length(), .substring() are all available too..
+ 	   
+    // print("My first name is : $firstName")
+    
+    // if (firstName == "Dil")
+    // 	print("Hai..")
+    // else
+    // 	print("Nai hai..")
+    
+    // val names = listOf("Aman", "Dilip", "Gunjan", "Dev", "Vicky") // list are immutable by default!
+    
+    // println(names)
+    // print(names[0])
+    
+    val names = mutableListOf ("Aman", "Dilip", "Dev")
+    // println(names)
+    // names.add("Gunjan")
+    // names.add("Gaurav")
+    // print("\nupdated : $names")
+    
+    // forEach loop
+    // for (name in names)
+    // 	print("$name, ")
+    
+    // for (i in 1..10)	// interates from 1 to 10 (10 included)
+    // 	println(i)
+    
+//     for (i in 1 until 11) 	// excludes 10
+//     	println(i)
+
+	myFun("Aman", 10)
+    
+}
+
+fun myFun (name: String, age: Int) {
+    print("Hello $name! \nYour age is : $age")
+}
